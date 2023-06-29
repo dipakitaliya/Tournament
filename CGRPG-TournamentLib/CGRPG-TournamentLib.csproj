@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <RootNamespace>CGRPG_TournamentLib</RootNamespace>
+        <Nullable>enable</Nullable>
+        <LangVersion>8</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Queries\create.sql" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="CommandLineParser" Version="2.9.1" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost" Version="5.2.9" />
+      <PackageReference Include="Microsoft.Owin.Cors" Version="4.2.2" />
+      <PackageReference Include="Microsoft.Owin.Diagnostics" Version="4.2.2" />
+      <PackageReference Include="Npgsql" Version="6.0.7" />
+      <PackageReference Include="Owin" Version="1.0.0" />
+    </ItemGroup>
+
+</Project>
